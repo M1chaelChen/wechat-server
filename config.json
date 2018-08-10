@@ -1,0 +1,10 @@
+{
+  "token":"benbenben",
+  "appID":"wxb1e7cb66ffad80c5",
+    "appScrect":"145c04a6131b2428f520e605aaa2f338",
+    "apiDomain":"https://api.weixin.qq.com/",
+    "apiURL":{
+        "accessTokenApi":"%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+        "createMenu":"%scgi-bin/menu/create?access_token=%s"
+    }
+}
